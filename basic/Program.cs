@@ -17,6 +17,24 @@ class Program
         Console.WriteLine("Name    :" + name);
         Console.WriteLine("isSingle:" + isSingle);
         Console.WriteLine("=========================================");
+        string mynameis = "Vathana";
+        Console.WriteLine("Hello"+"  " + mynameis);
+        Console.WriteLine("==================string=======================");
+        string fistName = "Vathana";
+        string lastName = "Hong";
+        string fullName =fistName + lastName;
+        Console.WriteLine(fullName);
+        Console.WriteLine("===================int======================");
+        int x = 5;
+        int y = 6;
+        Console.WriteLine(x * y);
+        //To declare more than one variable of the same type, use a comma-separated list:
+        int z =6,t=4,r=9;
+        Console.WriteLine(z + t + r);
+        //You can also assign the same value to multiple variables in one line:
+        int g, b, d;
+        g = b = d = 60;
+        Console.WriteLine(g + b + d);
     }
 }
 
