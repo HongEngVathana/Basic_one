@@ -35,6 +35,46 @@ class Program
         int g, b, d;
         g = b = d = 60;
         Console.WriteLine(g + b + d);
+        Console.WriteLine("===================Identifiers======================");
+        // Good
+        int minutesPerHour = 60;
+        // OK, but not so easy to understand what m actually is
+        int m = 60;
+        Console.WriteLine(minutesPerHour);
+        Console.WriteLine(m);
+        Console.WriteLine("===================Type_Casting======================");
+
+        int myInt = 30;
+        double myDouble = myInt;
+        Console.WriteLine(myInt);
+        Console.WriteLine(myDouble);
+
+        Console.WriteLine("===================Canting======================");
+
+        double myDouble2 = 99.99;
+        int myI = (int)myDouble;
+
+        Console.WriteLine(myDouble2);
+        Console.WriteLine(myI);
+
+        Console.WriteLine("Enter username:");
+        string userName = Console.ReadLine();
+
+        Console.WriteLine("Username is:" + userName);
+        Console.WriteLine("=========================================");
+        int n = 100 + 50;
+
+        Console.WriteLine(n);
+
+        Console.WriteLine("=========================================");
+
+        int e = 90;
+        e += 4;
+
+        Console.WriteLine(e);
+
+
+
     }
 }
 
