@@ -1,4 +1,6 @@
-﻿namespace basic;
+﻿using System;
+
+namespace basic;
 class Program
 {
     static void Main(string[] args)
@@ -72,6 +74,26 @@ class Program
         e += 4;
 
         Console.WriteLine(e);
+        Console.WriteLine("===================Math======================");
+
+        Console.WriteLine(Math.Max(5, 10));
+        Console.WriteLine(Math.Sqrt(69));
+        Console.WriteLine(Math.Abs(-4.7));
+        Console.WriteLine(Math.Round(10.102));
+
+        Console.WriteLine("===============Strign==========================");
+
+        string greeting = "Hello";
+        Console.WriteLine(greeting);
+
+        string text = "AIEHGPEIRHGKEPJRHGKEWJRHGEKWJRHGIWERH";
+        Console.WriteLine("The length of the text string is:" + text.Length);
+
+        string text1 = "Hello World";
+        // Outputs "HELLO WORLD"
+        Console.WriteLine(text1.ToUpper());
+        Console.WriteLine(text1.ToLower());
+
 
 
 
